@@ -1,0 +1,144 @@
+body{
+   margin:0;
+   padding:0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background: #003c71;
+}
+.Box{
+   width:70%;
+   padding:20px;
+   position: relative;
+   margin-top: 50px;
+   left:13%;
+   transform:traslate(-50%, -50%);
+   background:lightgreen;
+   border: 2px solid darkorchid;
+   border-radius: 24px;
+   align-items: center;
+   Box-shadow: black 5px 5px 6px;
+}
+.List{
+   width:100%;
+   text-align: center;
+}
+.forms{
+   display: inline;
+}
+.actionBtn{
+   width:70px;
+   background: none;
+   border: 1px solid darkorchid;
+   border-radius: 20px;
+   font-weight: bold;
+   transition: 0.25s;
+}
+.actionBtn:hover{
+   background: #003c71;
+   border-color: black;
+   color:white;
+   cursor: pointer;
+}
+.interfaceBox{
+   width: 100%;
+   align-items: center;
+   text-align: center;
+}
+.interfaceBoxIner{
+   width: auto;
+   position: relative;
+   align-items: center;
+   text-align: center;
+   align-self: center;
+   left: 13px;
+}
+.textfields{
+   border: 0;
+   background: none;
+   display: block;
+   margin:auto;
+   text-align: center;
+   border: 2px solid darkorchid;
+   border-radius: 30px;
+   padding: 14px 10px;
+   width: 250px;
+   outline: none;
+   color: darkolivegreen;
+   transition: 0.25s;
+}
+.datefields{
+   border: 0;
+   background: none;
+   display: block;
+   margin:auto;
+   text-align: center;
+   border: 2px solid darkorchid;
+   border-radius: 30px;
+   padding: 14px 10px;
+   width: 250px;
+   outline: none;
+   color: darkolivegreen;
+   transition: 0.25s;
+}
+.textfields:focus{
+   width: 320px;
+}
+.interfaceBtnOk{
+   width:100px;
+   background: none;
+   margin-bottom: 40px;
+   margin-left: 40;
+   border: 1px solid darkorchid;
+   border-radius: 20px;
+   font-weight: bold;
+   float: left;
+   transition: 0.25s;
+}
+.interfaceBtnOk:hover{
+   background: #003c71;
+   border-color: black;
+   color:white;
+   cursor: pointer;
+}
+.interfacenewBtn{
+   width:120px;
+   background: none;
+   margin-bottom: 40px;
+   margin-left: 40;
+   text-align: center;
+   border: 1px solid darkorchid;
+   border-radius: 20px;
+   font-weight: bold;
+   float: left;
+   transition: 0.25s;
+}
+.interfacenewBtn:hover{
+   background: #003c71;
+   border-color: black;
+   color:white;
+   cursor: pointer;
+}
+.interfaceBtncancel{
+   width:100px;
+   background: none;
+   margin-bottom: 40px;
+   padding-right: 40;
+   display: inline-block;
+   border: 1px solid darkorchid;
+   border-radius: 20px;
+   color: black;
+   font-size: small;
+   font-feature-settings: normal;
+   font-weight: bold;
+   float: right;
+   transition: 0.25s;
+}
+.interfaceBtncancel:hover{
+   background: #003c71;
+   border-color: black;
+   color:white;
+   cursor: pointer;
+}
+.imgtumbanail{
+   border: 4px solid whitesmoke;
+   border-radius: 12px;
+}
